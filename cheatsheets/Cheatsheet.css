@@ -1,0 +1,68 @@
+
+.asaigneclass  {
+    background-color: hotpink;
+    color: blue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.border-test {
+    border-color: cyan;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    
+
+}
+                        /* more stylings */
+/*h1 {
+      font-size: 200%;
+  margin: 2% 0;
+  font-family: serif;
+  margin-top: "x"px  top bottom left right
+}
+ul {
+    list-style: circle; list-style-type: square;
+} */
+                       /* Second week of BC*/
+@media screen and (max-width: 992px) {
+    header
+    .bordertext
+    h2 
+    /* The example in BCRepo was to make cards adjust to a certain screen width*/
+    /* Said cards would look something like*/
+    .card {width: 100%;}
+}
+
+/*then change screen width with another @media */
+@media screen and (max-width:700px) {
+    .card {width: 50%;}
+}
+
+/*and so on*/
+
+/* flex */
+.card {
+
+    display: flex;
+    flex-wrap:wrap;
+    flex: 1 1 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+
+}
+.card img {
+    width: 100%;
+    /* The client insists that images be at least 400px */
+    min-width: 400px;
+}
+                    /* buttons */
+/*   button:hover
+    Button:active (user activly pressing on the button) box-shadow: 0 0 10px #000 inset;
+    button:focus  (clicked on it) outline: none; border-color: #8ac4ff;
+    */
+   
+ /* justify-content: space-between */

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="Cheatsheet.css"> <!-- Type="text/css" would go inbetween link and href-->
+        <!-- in bcrepo css links are diferent because they refer to a file in a folder-->
+        <!-- they do something like
+        link rel="stylesheet" type="text/css" href=".assets/css/style.css"-->
+        <!-- the syntax is something like
+           link rel="the type of file you are linking" Type="text/css" href="file location" -->
+        
+        <script src="cheatsheet.js"></script>
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <h>whatever</h>
+        <p>whatever</p>
+        <img class="border-test" src="https://s1.zerochan.net/Shenhe.600.3512905.jpg"
+            alt="shenhe image" width="100" height="150"/>
+        <form action="destinationurl">
+            <label><input type="radio" 
+                name="indoor-outdoor" checked>indoor</label>
+            <label><input type="radio"
+                name="indoor-outdoor" checked>outdoor</label>
+                <br>
+            <label><input type="checkbox"
+                name="personality" checked> loving</label>
+            <label><input type="checkbox"
+                name="personality"> lazy </label>
+            <label><input type="checkbox"
+                name="personality">energetic</label>
+                <br>
+            <input type="text"placeholder="placeholdertext"
+                required>
+            <button type="submit">submit</button>
+        </form>
+        <div class="asaigneclass">
+            <p> testing div and class asigne</p><!--stuff here will be a class-->
+        </div>
+        <!-- copied from prework-->
+        <p>Press the buttons to move the box!</p>
+
+        <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px"></div>
+    
+        <button id="shrinkBtn"
+            onclick="shrink()">Shrink</button>
+        <button id="growBtn"
+            onclick="grow()">Grow</button>
+        <button id="resetBtn"
+            onclick="reset()">Reset</button>
+        <!-- this is the end of the copy-->
+        <p id=demo>this is the demo</p>
+        <button type="button"
+            onclick="changep()">try it</button>
+        <!-- now try and change, .addevent listener in
+            java -->
+        <button id="colorbtn">color</button>
+        <!-- Contact info-->
+        <div>
+            <ul>
+                <li> <a href="https://github.com/">Github</a></li>
+                <li> <a href="#">Portfolio</a></li>
+                <li> <a href="#contact">Contact</a></li>
+              </ul>
+        </div>
+    </body>
+</html>
